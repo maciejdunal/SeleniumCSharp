@@ -44,7 +44,7 @@ namespace SeleniumCSharpTutorials
             driver.Close();
         }
 
-/*        [Test, Order(0), Category("OrderSkipAttribute")]
+        [Test, Order(0), Category("OrderSkipAttribute")]
         public void TestMethod3()
         {
 
@@ -56,7 +56,7 @@ namespace SeleniumCSharpTutorials
             IWebElement emailTextField = driver.FindElement(By.XPath(".//*[@id='email']"));
             emailTextField.SendKeys("Selenium C#");
             driver.Close();
-        }*/
+        }
     }
 }
  
